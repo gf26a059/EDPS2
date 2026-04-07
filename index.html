@@ -107,6 +107,20 @@
         .status-grid { transition-delay: 0.1s; }
         .barcode-area { transition-delay: 0.3s; }
         .footer-note { transition-delay: 0.5s; }
+
+        /* -----------------------------------
+           4. レスポンシブデザイン（スマホ対応）
+        ----------------------------------- */
+        @media (max-width: 768px) {
+            .container {
+                width: 350px;
+                height: 600px;
+            }
+            .card-wrapper {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+        }
     </style>
 </head>
 <body>
